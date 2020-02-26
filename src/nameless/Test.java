@@ -9,7 +9,6 @@ import java.util.Scanner;
 
 public class Test {
 	public static void main(String[] args) {
-		int count = 0;
 		while(true)
 		try {
 			System.out.println("initializing..");
@@ -71,14 +70,6 @@ public class Test {
 			}else {
 				try {
 					System.out.println("no process finded.");
-					if(++count >= 3) {
-						while(true) {
-							System.out.print("enter \"retry\" to restart:");
-							if(new Scanner(System.in).next().equals("retry")) {
-								break;
-							}
-						}
-					}
 					System.out.println("waiting to retry..");
 					Thread.sleep(61000);
 				}catch(Exception e) {}
