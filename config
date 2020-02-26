@@ -3,6 +3,8 @@ systemsettings.exe
 calculator.exe
 searchui.exe
 shellexperiencehost.exe
-etdcrl.exe
+etdctrl.exe
 etdtouch.exe
 etdctrlhelper.exe
+etdservice.exe
+googleupdate.exe
